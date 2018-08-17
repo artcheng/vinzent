@@ -1,0 +1,27 @@
+npm install @angular/material @angular/cdk
+
+src/styles.css
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+npm install hammerjs
+
+src/main.ts
+import 'hammerjs';
+
+src/index.html
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+
+npm install @angular/flex-layout rxjs-compat
+
+npm install @angular-devkit/architect
+npm install rxjs
+npm install chokidar
+
+npm install @angular-devkit/arthitect-cli
+npm install karma
+npm install @angular/compiler-cli
+npm install @angular/platform-server
+npm install @angular-devkit/core
+
+edit angular.json
+ng xi18n

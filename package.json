@@ -4,10 +4,13 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:zh": "ng serve --configuration=zh",
     "build": "ng build",
+    "build:zh": "ng build --configuration=production-zh",
     "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "lint": "tslint ./src/**/*.ts -t verbose",
+    "e2e": "ng e2e",
+    "extract": "ng xi18n --output-path=locale"
   },
   "private": true,
   "dependencies": {
@@ -29,6 +32,7 @@
     "@angular/cli": "~6.1.3",
     "@angular/compiler-cli": "^6.1.0",
     "@angular/language-service": "^6.1.0",
+    "@angular/platform-server": "^6.1.2",
     "@types/jasmine": "~2.8.6",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
