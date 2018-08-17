@@ -5,36 +5,50 @@
       <trans-unit id="c3d4c88c5335d36491256997c2a479c8b1eb3878" datatype="html">
         <source>Vinzent Strategies</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/welcome/welcome.component.html</context>
+          <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">31</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6765b4c916060f6bc42d9bb69e80377dbcb5e4e9" datatype="html">
         <source>Login</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/welcome/welcome.component.html</context>
+          <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">39</context>
         </context-group>
       </trans-unit>
       <trans-unit id="92eee6be6de0b11c924e3ab27db30257159c0a7c" datatype="html">
         <source>Home</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/welcome/welcome.component.html</context>
+          <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">45</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f65253954b66e929a8b4d5ecaf61f9129f8cec64" datatype="html">
         <source>Dashboard</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/welcome/welcome.component.html</context>
+          <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">51</context>
         </context-group>
       </trans-unit>
       <trans-unit id="49b7330acd5eb56f23cd161e962bc9efb055f6d8" datatype="html">
         <source>LogOut</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/welcome/welcome.component.html</context>
+          <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7109098a21df88cd43f5b617282b28df8281defa" datatype="html">
+        <source>Market</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="24968c3b9f7cb940df7e5bf46f61a11710481829" datatype="html">
+        <source>Reports</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit>
     </body>

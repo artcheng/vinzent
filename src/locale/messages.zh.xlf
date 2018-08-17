@@ -6,7 +6,7 @@
         <source>Vinzent Strategies</source>
         <target>维证策略</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/welcome/welcome.component.html</context>
+          <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">31</context>
         </context-group>
       </trans-unit>
@@ -14,7 +14,7 @@
         <source>Login</source>
         <target>登录</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/welcome/welcome.component.html</context>
+          <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">39</context>
         </context-group>
       </trans-unit>
@@ -22,7 +22,7 @@
         <source>Home</source>
         <target>主页</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/welcome/welcome.component.html</context>
+          <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">45</context>
         </context-group>
       </trans-unit>
@@ -30,7 +30,7 @@
         <source>Dashboard</source>
         <target>Dashboard</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/welcome/welcome.component.html</context>
+          <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">51</context>
         </context-group>
       </trans-unit>
@@ -38,8 +38,24 @@
         <source>LogOut</source>
         <target>登出</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">app/welcome/welcome.component.html</context>
+          <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7109098a21df88cd43f5b617282b28df8281defa" datatype="html">
+        <source>Market</source>
+        <target>市场</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="24968c3b9f7cb940df7e5bf46f61a11710481829" datatype="html">
+        <source>Reports</source>
+        <target>报告</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit>
     </body>
