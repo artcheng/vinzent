@@ -6,7 +6,7 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
-import { DashboardModule } from './dashboard/dashboard.module';
+import { DashboardComponent } from './dashboard/dashboard.component';
 import { AppRoutingModule } from './app-routing.module';
 import { MaindeckComponent } from './maindeck/maindeck.component';
 import { MarketComponent } from './market/market.component';
@@ -17,6 +17,7 @@ import { MarketComponent } from './market/market.component';
     WelcomeComponent,
     MaindeckComponent,
     MarketComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +25,6 @@ import { MarketComponent } from './market/market.component';
     MaterialModule,
     FlexLayoutModule,
     AppRoutingModule,
-    DashboardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

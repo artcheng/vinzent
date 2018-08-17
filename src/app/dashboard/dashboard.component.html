@@ -13,7 +13,7 @@
      </div>
      <div><button mat-button [matMenuTriggerFor]="market"><span i18n>Market</span></button>
 			<mat-menu #market="matMenu">
-			  <button mat-menu-item>Item 1</button>
+			  <button mat-menu-item [routerLink]="[{ outlets: { market: ['market'] } }]">item 1</button>
 			  <button mat-menu-item>Item 2</button>
 			</mat-menu>
 	 </div>
@@ -39,9 +39,15 @@
     </mat-toolbar>
 
   </mat-sidenav-content>
+  
+      
 </mat-sidenav-container>
-    
-    
+    <main>
+      <router-outlet name="market"></router-outlet>
+    </main>
   </mat-drawer-content>
+
   
 </mat-drawer-container>
+
+

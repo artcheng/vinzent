@@ -6,8 +6,13 @@ import {MarketComponent} from './market/market.component';
 
 const routes: Routes = [
   {path: '', component: WelcomeComponent},
-  {path: 'dashboard', component: DashboardComponent},
-  {path: 'market', component: MarketComponent}
+  {
+  path: 'dashboard', component: DashboardComponent,
+    children: [
+        { path: '', component: WelcomeComponent, outlet: 'market' },
+        { path: 'market', component: MarketComponent, outlet: 'market' }
+    ],
+  }
 ];
 
 @NgModule({
@@ -15,6 +20,7 @@ const routes: Routes = [
     RouterModule.forRoot(
       routes,
      {
+       useHash: true,
        enableTracing: true
      })
   ],
