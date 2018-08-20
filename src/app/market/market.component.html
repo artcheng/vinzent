@@ -1,3 +1,15 @@
-<p>
-  market works!
-</p>
+<button mat-icon-button (click)="getSelectedRows()">Get Selected Rows</button>
+
+<ag-grid-angular 
+	#agGrid
+    style="width: 100%; height: 500px;" 
+    class="ag-theme-balham"
+    [autoGroupColumnDef]="autoGroupColumnDef"
+    [enableSorting]="true"
+    [enableFilter]="true"
+    [rowData]="rowData | async" 
+    [columnDefs]="columnDefs"
+    rowSelection="multiple"
+    >
+</ag-grid-angular>
+

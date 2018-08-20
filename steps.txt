@@ -25,3 +25,9 @@ npm install @angular-devkit/core
 
 edit angular.json
 ng xi18n
+npm install --save ag-grid ag-grid-angular
+
+npm install --save d3
+npm install --save-dev @types/d3
+
+

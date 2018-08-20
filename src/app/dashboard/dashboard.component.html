@@ -13,13 +13,13 @@
      </div>
      <div><button mat-button [matMenuTriggerFor]="market"><span i18n>Market</span></button>
 			<mat-menu #market="matMenu">
-			  <button mat-menu-item [routerLink]="[{ outlets: { market: ['market'] } }]">item 1</button>
+			  <button mat-menu-item [routerLink]="[{ outlets: { market: ['market'] } }]">Prices</button>
 			  <button mat-menu-item>Item 2</button>
 			</mat-menu>
 	 </div>
 	 <div><button mat-button [matMenuTriggerFor]="reports"><span i18n>Reports</span></button>
 			<mat-menu #reports="matMenu">
-			  <button mat-menu-item>Item 1</button>
+			  <button mat-menu-item [routerLink]="[{ outlets: { market: ['chart'] } }]">Chart</button>
 			  <button mat-menu-item>Item 2</button>
 			</mat-menu>
 	 </div>

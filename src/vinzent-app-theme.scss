@@ -1,3 +1,11 @@
+$icons-path: "~ag-grid/src/styles/icons/";
+$ag-mat-icons-path: "~ag-grid/src/styles/material-icons/";
+$border-color: "#FFFF00";
+$odd-row-background-color: "#CFD8DC";
+
+@import "~ag-grid/dist/styles/ag-grid.css";
+@import "~ag-grid/dist/styles/ag-theme-balham.css";
+
 @import '~@angular/material/theming';
 // Plus imports for other components in your app.
 
